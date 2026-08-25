@@ -1,0 +1,12 @@
+{
+  "id": "wechat-publisher",
+  "name": { "zh": "发布台", "en": "Publisher Desk" },
+  "icon": "briefcase",
+  "version": "1.0.0",
+  "layout": {
+    "left": [{ "type": "plugin:wechat-publisher:ledger" }],
+    "main": [{ "type": "plugin:wechat-publisher:composer" }],
+    "right": [{ "type": "chat" }]
+  },
+  "requires": { "views": ["plugin:wechat-publisher:composer", "plugin:wechat-publisher:ledger"] }
+}
