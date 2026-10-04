@@ -2,6 +2,7 @@
   "id": "wechat-publisher",
   "name": { "zh": "发布台", "en": "Publisher Desk" },
   "icon": "briefcase",
+  "iconFile": "icon.png",
   "version": "1.0.0",
   "layout": {
     "left": [{ "type": "plugin:wechat-publisher:ledger" }],
