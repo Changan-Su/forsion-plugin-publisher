@@ -1,5 +1,10 @@
 # 更新日志
 
+## 1.1.1 — 2026-10-04
+
+- Space 图标换成插件自己的图标,不再和别的插件共用图标库里的同一枚(`space.json` 的 `iconFile`)。需要支持 Space 自绘图标的 Forsion(2.12.2 之后的版本);更早的版本照旧显示原来的图标。配方版本不变,已保存的布局不受影响。
+- **English:** The Space now shows the plugin's own icon instead of a shared library icon (`iconFile` in `space.json`). Needs a Forsion version that supports custom Space icons (later than 2.12.2); earlier versions keep the previous icon. The recipe version is unchanged, so saved layouts are not affected.
+
 ## 1.1.0 — 2026-08-25
 
 **随包技能补路由节**(`skills/wechat-publish/` 1.0.0 → 1.1.0),按 2026-08-24「动作性能力住引擎侧」的拍板:

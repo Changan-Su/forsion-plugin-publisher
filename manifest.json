@@ -2,7 +2,7 @@
   "id": "wechat-publisher",
   "name": "发布工作台",
   "nameEn": "Publisher",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "apiVersion": 1,
   "description": "把笔记库里的母稿渲染成全 inline 化的 HTML 一键送进剪贴板 —— 公众号编辑器会丢弃 class 与外联样式表,只有元素上的 style 属性能活下来,markdown 直接粘过去必崩;发之前再做一次本地体检,点名 mermaid / 公式 / 裸 HTML / 外链图片 / 表格等到了公众号会失效的块,并给出手工处理指引。数据流向:母稿取自你当前打开的笔记或工作文件夹里的固定草稿,渲染 / 体检 / 中英盘古之白全部在本地完成不联网;发布记录写成你笔记库里的纯 Markdown 台账(<工作文件夹>/Ledger/YYYY-MM.md);仅当你主动点「AI 助手」时,才把母稿或体检命中列表发给你已登录的 Forsion 后端,不经任何第三方服务;插件不会自动发布、不调用公众号接口。",
   "descriptionEn": "Renders your markdown source into fully inlined HTML and puts it on the clipboard in one click — the WeChat Official Account editor drops class attributes and external style sheets, so raw markdown always breaks when pasted. Before you publish, a local pre-flight check names the blocks that will fail there (mermaid, math, raw HTML, remote images, tables …) and tells you how to fix each by hand. Data flow: the source is your active note or a fixed draft file in the plugin work folder; rendering, checking and CJK/Latin spacing all run locally and offline; publish records are written as plain Markdown in your own vault (<work folder>/Ledger/YYYY-MM.md). Only when you press the AI assistant does the source (or the findings list) go to your signed-in Forsion backend — never to a third party. The plugin never publishes for you and never calls WeChat APIs.",
